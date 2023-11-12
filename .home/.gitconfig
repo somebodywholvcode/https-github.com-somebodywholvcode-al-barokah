@@ -1,0 +1,13 @@
+
+            [core]
+                    excludesFile = ~/.gitignore
+                    quotepath = off
+                    checkStat = minimal
+            [pull]
+                    rebase = false
+            [user]
+                    name = QOLUN MUHAMMAD AL FATAH
+                    email = qolun411@sd.belajar.id
+            [credential]
+                    helper = "!f() { echo \"username=$(cat /psb/tokens/.github)\npassword=\"; }; f"
+        
